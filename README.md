@@ -1,11 +1,7 @@
-## [CVPR 2023] Relational Context Learning for Human-Object Interaction Detection
-This repo is the official code for the CVPR 2023 paper "[Relational Context Learning for Human-Object Interaction Detection](https://arxiv.org/abs/2304.04997)".
-
-![](figures/main_fig_3_web.png)
 ## Installation
 ```shell
-git clone https://github.com/OreoChocolate/MUREN.git
-cd MUREN
+git clone https://github.com/qiyuexiao/hoi.git
+cd hoi
 conda create -f env.yaml 
 ```
 
@@ -25,7 +21,7 @@ unzip pretrained.zip
 
 The downloaded files should be placed as follows:
 ```
-MUREN
+hoi
 ├── data
 │   ├── hico_20160224_det
 │   └── v-coco
@@ -83,16 +79,3 @@ cd data/v-coco
 python vsrl_eval.py "vcoco.pickle"
 ```
 
-## Citation
-If you find this code helpful for your research, please cite our paper.
-```
-@article{kim2023relational,
-  title={Relational Context Learning for Human-Object Interaction Detection},
-  author={Kim, Sanghyun and Jung, Deunsol and Cho, Minsu},
-  journal={arXiv preprint arXiv:2304.04997},
-  year={2023}
-}
-```
-
-## Acknowledge
-This repo is based on [CDN](https://github.com/YueLiao/CDN). Thanks for their works.
